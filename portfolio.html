@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Portfolio</title>
     <style>
-        /* CSS Reset */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
         
-        /* General Styles */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -20,7 +18,6 @@
             background-color: #f4f4f4;
         }
         
-        /* Header Section */
         header {
             background: #333;
             color: #fff;
@@ -33,7 +30,6 @@
             margin-bottom: 0.5rem;
         }
         
-        /* Navigation Bar */
         nav ul {
             list-style: none;
             display: flex;
@@ -50,7 +46,6 @@
             font-weight: bold;
         }
 
-        /* Section Styles */
         .container {
             max-width: 1000px;
             margin: 0 auto;
@@ -76,9 +71,9 @@
         }
 
         #about img {
-    width: 80%;  /* Adjusts the image to 80% of its container's width */
-    max-width: 300px; /* Maximum width for large screens */
-    height: auto; /* Keeps the aspect ratio */
+    width: 80%; 
+    max-width: 300px; 
+    height: auto; 
     border-radius: 8px;
     border: 3px solid #333;
 }
@@ -90,7 +85,7 @@
             margin: 1rem auto;
         }
 
-        /* Skills Section */
+    
         .skills-list {
             display: flex;
             justify-content: space-around;
@@ -106,7 +101,7 @@
             border-radius: 8px;
         }
 
-        /* Projects Section */
+    
         .project {
             margin: 1rem 0;
             padding: 1rem;
@@ -115,7 +110,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        /* Contact Section */
+    
         #contact form {
             display: flex;
             flex-direction: column;
@@ -141,7 +136,7 @@
             cursor: pointer;
         }
 
-        /* Footer */
+
         footer {
             text-align: center;
             padding: 1rem;
@@ -151,8 +146,6 @@
     </style>
 </head>
 <body>
-
-    <!-- Header -->
     <header>
         <h1>Sai Kiran</h1>
         <p>Software Developer | Full Stack Java Developer</p>
@@ -166,7 +159,7 @@
         </nav>
     </header>
 
-    <!-- About Section -->
+
     <section id="about" class="section container">
         <h2>About Me</h2>
         <img src="80973.JPEG" alt="sai kiran">
@@ -175,7 +168,7 @@
             Developer position to leverage my technical expertise and contribute to innovative software solutions</p>
     </section>
 
-    <!-- Skills Section -->
+
     <section id="skills" class="section container">
         <h2>Skills</h2>
         <div class="skills-list">
@@ -184,11 +177,10 @@
             <div class="skill">JavaScript</div>
             <div class="skill">Java</div>
             <div class="skill">PHP</div>
-            <!-- Add more skills as needed -->
         </div>
     </section>
 
-    <!-- Projects Section -->
+
     <section id="projects" class="section container">
         <h2>Projects</h2>
         <div class="project">
@@ -215,10 +207,10 @@
                 <li>Enhanced data accuracy and accessibility for students, teachers, and administrative staff.</li>
             </ol>
         </div>
-        <!-- Add more projects as needed -->
+     
     </section>
 
-    <!-- Contact Section -->
+
     <section id="contact" class="section container">
         <h2>Contact Me</h2>
         <form id="contactForm">
@@ -229,12 +221,12 @@
         </form>
     </section>
 
-    <!-- Footer -->
+ 
     <footer>
         <p>&copy; 2024 saikiran</p>
     </footer>
 
-    <!-- JavaScript for Form Submission -->
+
     <script>
         function submitForm() {
             const name = document.getElementById("name").value;
